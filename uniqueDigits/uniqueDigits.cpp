@@ -23,11 +23,18 @@ void uniqueDigits(int l, int r){
 }
 
 int main(){
+   int t;
+  cout << "Enter the number of test cases: "<<endl;
+  cin>>t;
+  while(t--)
+  {
     int l, r;
     cout << "Enter the left extreme: ";
     cin >> l;
     cout << "Enter the right extreme: ";
     cin >> r;
     uniqueDigits(l, r);
+    cout<<endl;
+}
     return 0;
 }
